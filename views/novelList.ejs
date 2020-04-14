@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+<div class="topnav">
+        <a  href="/">Home</a>
+        <a href="/download">Download</a>
+        <a class="active" href="/novels">Novels</a>
+</div>
+
+<% for(var i=1;i<=folders.length;i++){ %>
+<p>
+    <a href = <%= "/"+folders[i-1] %> ><%= folders[i-1] %></a>
+</p>
+<% } %>

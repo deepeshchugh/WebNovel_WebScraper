@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+<div class="topnav">
+        <a  href="/">Home</a>
+        <a href="/download">Download</a>
+        <a href="/novels">Novels</a>
+</div>
+<h1>Welcome To The Index For <%= novelName %> :</h1>
+<% for(var i=0;i<truncatedFiles.length;i++){ %>
+<p>
+    <a href = <%= "/"+novelName+"/" + truncatedFiles[i] %> > >Chapter Number <%= truncatedFiles[i] %></a>
+</p>
+<% } %>

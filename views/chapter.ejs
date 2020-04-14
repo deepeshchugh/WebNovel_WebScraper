@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+<div class="topnav">
+        <a  href="/">Home</a>
+        <a  href="/download">Download</a>
+        <a href="/novels">Novels</a>
+</div>  
+<%- content %>
+<% if(chno != 1){ %>
+<a href =  <%= "/"+novelName+"/" + prevchno %> class = "chapterLinkLeft">Previous Chapter</a>
+<% } %>
+<a href =  <%= "/"+novelName+"/" + nextchno %> class = "chapterLinkRight">Next Chapter</a>
+

@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+<div class="topnav">
+        <a  href="/">Home</a>
+        <a class="active" href="/download">Download</a>
+        <a href="/novels">Novels</a>
+</div>
+<p><form action = '/' method = "POST">
+    <form>
+    <label for="index"> BoxNovel.com Index Link:</label>
+    <input type="url" id="index" name="index">
+    <br>
+    <br>
+
+    <label for="start">First Chapter to Download:</label>
+    <input type="number" id="start" name="start" min="1">
+    <br>
+    <br>
+
+    <label for="end">Last Chapter to Download:</label>
+    <input type="number" id="end" name="end" min="1">
+    <br>
+    <br>
+
+    <button class = "button button1">Download Chapters</button>
+    </form></p>
