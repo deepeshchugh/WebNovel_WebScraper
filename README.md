@@ -3,7 +3,7 @@ A node app to scrape novel chapters from BoxNovel for offline viewing
 
 Code for initializing application: (To be run after downloading and extracting project files in target folder)</br>
 <code> 
-npm install
+npm install </br>
 npm install chromedriver
 </code>
 
