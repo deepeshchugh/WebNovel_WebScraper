@@ -1,6 +1,6 @@
-#WebNovel_WebScraper
+# WebNovel_WebScraper
 
-##DISCLAIMER
+## DISCLAIMER
 Disclaimer & Warning
 Most sites prohibit the scrapping for their content. Use at your own risk. Please use with appropriate wait times. Downloaded chapters are for private use only.
 This project is not meant to breach the rights of the owners or authors of any such website.
