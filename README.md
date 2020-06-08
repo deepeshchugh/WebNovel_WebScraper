@@ -1,5 +1,11 @@
-# BoxNovel_WebScraper
-A node app to scrape novel chapters from BoxNovel for offline viewing
+#WebNovel_WebScraper
+
+##DISCLAIMER
+Disclaimer & Warning
+Most sites prohibit the scrapping for their content. Use at your own risk. Please use with appropriate wait times. Downloaded chapters are for private use only.
+This project is not meant to breach the rights of the owners or authors of any such website.
+
+This project is A node app to scrape novel chapters for offline viewing, the code is structured according to BoxNovel but can easily be altered for similar websites with a little DOM Knowledge.
 
 Code for initializing application: (To be run after downloading and extracting project files in target folder)</br>
 <code> 
